@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+
+            <div id="contenido">
+                <div class="agregar-contenido"></div>
+        <form class="formulario" id="registro">
+            <fieldset>
+                <legend>REGISTRO DE NUEVO SOCIO</legend>
+              
+             <div class="contenedor-campos">
+                 
+                <div class="campo">
+                <label>Nombre y Apellido</label>
+                <input class="input-text" type="text" id="nombre" name="nombre" placeholder="">
+                </div>
+
+                <div class="campo">
+                <label>Establecimiento</label>
+                <input  class="input-text" type="text" id="establecimiento" name="establecimiento" placeholder="">
+                </div>
+
+                 
+               <div class="campo">
+                <label>DNI/Legajo</label>
+                <input class="input-text" type="text" id="dni" name="dni" placeholder="">
+                </div>
+
+
+                <div class="campo">
+                <label>Cargo</label>
+                <select name="cargo" id="cargo" name="cargo" class="input-text">
+                    <option value="Selecciona">Selecciona</option>
+                    <option value="Docente">Docente</option>
+                    <option value="Estudiante">Estudiante</option>
+                </select>
+                </div>
+               
+
+                 <div class="campo">
+                <label>Direccion</label>
+                <input class="input-text" type="text" id="direccion" name="direccion" placeholder="">
+                </div>
+
+                 <div class="campo">
+                <label>Fecha de nacimiento</label>
+                <input class="input-text" type="date" id="fecha" name="fecha" placeholder="">
+                </div>
+
+                <div class="campo">
+                <label>e-mail</label>
+                <input class="input-text" type="email" id="email" name="email" placeholder="">
+                </div>
+
+                <div class="campo">
+                <label>Fecha de asociacion</label>
+                <input class="input-text" type="date" id="asociacion" name="asociacion" placeholder="">
+                </div>
+
+                <div class="campo">
+                <label>Telefono de contacto</label>
+                <input class="input-text" type="tel" id="telefono" name="telefono" placeholder="">
+                </div>
+
+                <div class="campo">
+                <label>Sexo</label>
+                <input class="input-radio" type="radio">
+                <label>Femenino</label>
+                <input class="input-radio" type="radio">
+                <label>Masculino</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+        
+
+            <div class="alinear-derecha flex">
+                <input class="boton w-sm-100" type="submit" value="Guardar socio">
+            </div>
+                
+            </fieldset>
+        </form>
+    
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
